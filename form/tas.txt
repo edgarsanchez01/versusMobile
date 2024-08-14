@@ -1,0 +1,39 @@
+                <div class="left">
+                    <h4 id="titulo-preview"></h4>
+                    <span id="descripcion-preview"></span>
+                </div>
+                <ul>
+                    <li><i class="fa fa-star"></i> 4.8</li>
+                    <li><i class="fa fa-download"></i> 2.3M</li>
+                </ul>
+
+
+                <form action="../php/form.php" method="post">
+                    <div class="set">
+                        <div class="pets-name">
+                            <label for="titulo">Titulo</label>
+                            <input id="titulo" name="titulo" placeholder="Titulo articulo" type="text" />
+                        </div>
+
+                        <div class="pets-name">
+                            <label for="titulo">Titulo</label>
+                            <input id="titulo" name="titulo" placeholder="Titulo articulo" type="text" />
+                        </div>
+
+
+                        <div class="pets-name-descripcion">
+                            <label for="descripcion">Descripcion</label>
+                            <input id="descripcion-input" name="descripcion" placeholder="Descripcion del telefono"
+                                type="text" />
+                        </div>
+                    </div>
+                </form>
+
+
+
+                <script>
+                document.getElementById('descripcion-input').addEventListener('input', function() {
+                    var descripcionPreview = document.getElementById('descripcion-preview');
+                    descripcionPreview.textContent = this.value;
+                });
+                </script>

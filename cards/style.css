@@ -1,0 +1,20 @@
+body {
+    background-color:  #212529 !important;/* Color de fondo oscuro */
+  }
+
+  .card {
+    background-color:  #343a40 !important; /* Color de fondo oscuro */
+    color: #FFF;
+  }
+
+  .card-title,
+  .card-text,
+  .card-body span{
+   color: #FFF;
+  }
+  .text-uppercase, p {
+    color: #FFF;
+  }
+  .progress-bar {
+    background-color: #dc3545; /* Color de la barra de progreso */
+  }
